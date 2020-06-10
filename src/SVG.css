@@ -1,0 +1,38 @@
+:root {
+  /* fonts and text*/
+  --spacing: 0.1rem;
+  /* for body */
+  --ff-primary: 'Roboto', sans-serif;
+  /* for headings and titles */
+  --ff-secondary: 'Open Sans', sans-serif;
+  /* for logo */
+  --ff-logo: 'Caveat', sans-serif;
+
+  /* colors */
+  /* darkest grey - used for headings */
+  --clr-grey-1: #242424;
+  --clr-grey-3: #262626;
+  --clr-grey-4: #8c8c8c;
+  --clr-grey-5: #b9b9b9;
+
+  --clr-primary-1: #124c2d;
+  --clr-primary-2: #1d7043;
+  --clr-primary-3: #61967a;
+  --clr-primary-4: #769e89;
+
+  --clr-white: #fff;
+  --clr-turquoise: #216869;
+  --clr-pink: #d4a0a7;
+
+  --clr-bright-pumpkin: #fc7a1e;
+  --clr-bright-lime: #c7ef00;
+
+  /* others */
+  --transition: all 0.3s linear;
+  --max-width: 1170px;
+  --radius: 0.25rem;
+}
+
+#svg-container {
+  background-color: var(--clr-grey-5);
+}
